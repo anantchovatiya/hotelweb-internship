@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Image Gallery | CodingNepal</title>
+    <link rel="stylesheet" href="./CSS/gallery.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+        <img src="./Images/logo.webp" alt="">
+    </div>
+    <div class="links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="gallery.html" class="selectedlink">Gallery</a></li>
+            <li><a href="">Testimonial</a></li>
+        </ul>
+    </div>
+    <div class="btns">
+        <button class="register">Register</button>
+        <button class="signin">Sign in</button>
+    </div>
+</div>
+<div class="resnavbar">
+    <div class="reslogo logo">
+        <img src="./Images/logo.webp" alt="">
+        <img class="ham" onclick="hamburger()" src="./Images/hamburger.png" alt="">
+    </div>
+    <div class="panel">
+        <div class="links">
+            <ul>
+                <li><a href="index.html" class="selectedlink">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="gallery.html"  class="selectedlink">Gallery</a></li>
+                <li><a href="">Testimonial</a></li>
+            </ul>
+        </div>
+        <div class="btns">
+            <button class="register">Register</button>
+            <button class="signin">Sign in</button>
+        </div>
+    </div>
+</div>
+  <div class="titlee">
+    <p>Picture-Perfect Stays</p>
+  </div>
+  <div class="wrapper">
+    <div class="gallery">
+      <div class="image"><span><img src="./Images/gone.jpeg" alt=""></span></div>
+      <div class="image"><span><img src="./Images/gtwo.jpeg" alt=""></span></div>
+      <div class="image"><span><img src="./Images/gthree.jpeg" alt=""></span></div>
+      <div class="image"><span><img src="./Images/gfour.jpeg" alt=""></span></div>
+      <div class="image"><span><img src="./Images/gone.jpeg" alt=""></span></div>
+      <div class="image"><span><img src="./Images/gtwo.jpeg" alt=""></span></div>
+      <div class="image"><span><img src="./Images/gone.jpeg" alt=""></span></div>
+      <div class="image"><span><img src="./Images/gtwo.jpeg" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+  <div class="button">
+    <button id="view-more-btn">View more</button>
+    <button id="view-less-btn" style="display: none;"><p>View less</p></button>
+  </div>
+  <div class="footer">
+    <div class="f1">
+    FOLLOW US <br>
+    <img src="./Images/facebook-app-symbol.png" alt="">
+    <img src="./Images/instagram.png" alt="">
+    <img src="./Images/twitter.png" alt="">
+    <img src="./Images/youtube.png" alt="">
+    <br><br>
+    <span class="tandc">Terms and Conditions</span>
+    <br><br>
+    <span class="reservation">Reservations must be guaranteed with a valid credit card. Cancellations within [specified time] of arrival may incur a fee. Check-in time is [time], and check-out time is [time]. Full payment is required at check-in. The hotel is not liable for lost or stolen items. Smoking is prohibited in all indoor areas; a cleaning fee will be charged for violations. Pets are [allowed/not allowed]; conditions apply. Guests must conduct themselves respectfully and are liable for any damages caused. The hotel reserves the right to modify these terms without prior notice.</span>
+
+    <br><br>
+    <span class="feel">Feel free to adjust the specifics to align with your hotel’s policies and requirements.</span>
+    </div>
+
+    <div class="f2">
+        <div>
+            <span class="sit">STAY IN TOUCH</span>
+            <span class="sitdesc">SUBSCRIBE TO RECEIVE UPDATES, ACCESS TO EXCLUSIVE DEALS AND MORE.</span>
+        </div>
+        <div class="mess">
+            <input type="email" placeholder="     Enter your email" class="email">
+            <button class="sub">SUBSCRIBE</button>
+        </div>
+    </div>
+
+
+</div>
+<div class="copyright">
+    HOTEL NAME © [Current Year] [Hotel Name]. All Rights Reserved.
+</div>
+<script src="./JS/nav.js"></script>
+  <script src="./JS/gallery.js"></script>
+
+</body>
+</html>

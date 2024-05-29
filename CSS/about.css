@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* about page */
+
+.facilities {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 40px;
+  opacity: 1;
+}
+
+.section {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about .section .list {
+  margin: 25px;
+  height: 350px;
+  width: 365px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.about .section .list .image {
+  width: 100%;
+}
+
+.about .section .list .image img {
+  border-radius: 20px;
+  width: 100%;
+  height: 245px;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.part {
+  margin-top: 5px;
+  padding-left: 6px;
+  height: 90px;
+}
+
+.btn {
+  text-align: center;
+  width: 100%;
+}
+
+.btn > button {
+  color: white;
+  background-color: #ffc700;
+  font-size: larger;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid;
+  width: 150px;
+  height: 49px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn > button:hover {
+  background-color: white;
+  color: #ffc700;
+}
+
+p {
+  padding: 3px;
+}
+
+.pera {
+  font-size: 20px;
+}
+
+@media (min-width: 850px) {
+  .about .section .list .image img:hover {
+    border-radius: 10px;
+    width: 375px;
+    height: 255px;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 450px) {
+  .facilities {
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+  }
+  .about .section .list {
+    margin-top: 0px;
+  }
+}
+
+/* slider */
+
+.slider {
+  margin-top: 30px;
+  background-color: #000000e7;
+  color: #333;
+}
+
+.slider .comment {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  color: white;
+}
+.slider section {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.slider section .container {
+  width: 90%;
+  height: 575px;
+  padding: 15px;
+}
+
+.slider section .container .wrapper .card {
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.slider section .container .wrapper .card > .content {
+  height: 90px;
+  margin-bottom: 2px;
+}
+
+.slider section .container .wrapper .card > .person {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.slider section .container .wrapper .card .person .userinfo {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.slider section .container .wrapper .card .person .photo {
+  height: 89px;
+  width: 115px;
+  background: #ffc700;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.slider section .container .wrapper .card .person .photo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.review {
+  width: 100%;
+  height: 64%;
+}
+.review .list {
+  width: 100%;
+  height: 100%;
+}
+
+.review .list .image {
+  width: 100%;
+  height: 80%;
+}
+
+.review .list img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.review .list p {
+  padding: 5px;
+}
+.swiper-pagination {
+  position: absolute;
+}
+
+.swiper-pagination-bullet {
+  height: 7px;
+  width: 7px;
+  border-radius: 25px;
+  background: #ffffff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #f4f4f4;
+  transition: all 0.3s linear;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #7d7b7d;
+}
+
+@media (max-widht: 800px) {
+  .wrapper .card {
+    margin-right: 16px;
+  }
+  
+}

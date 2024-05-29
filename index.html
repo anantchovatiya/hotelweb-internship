@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel XYZ</title>
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./Images/logo.webp" alt="">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="index.html" class="selectedlink">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="">Testimonial</a></li>
+                </ul>
+            </div>
+            <div class="btns">
+                <button class="register">Register</button>
+                <button class="signin">Sign in</button>
+            </div>
+        </div>
+        <div class="resnavbar">
+            <div class="reslogo logo">
+                <img src="./Images/logo.webp" alt="">
+                <img class="ham" onclick="hamburger()" src="./Images/hamburger.png" alt="">
+            </div>
+            <div class="panel">
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html" class="selectedlink">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="">Testimonial</a></li>
+                    </ul>
+                </div>
+                <div class="btns">
+                    <button class="register">Register</button>
+                    <button class="signin">Sign in</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="heading">
+                <div class="head1">
+                    Welcome to [Hotel name]
+                </div>
+                <p>Experience luxury and comfort at [Hotel Name], located in the heart of [City Name]. Our elegantly designed rooms, top-notch
+                    amenities, and exceptional service ensure a memorable stay. Enjoy our gourmet dining, relax in our spa, or explore the city's vibrant
+                    attractions just steps away. Book your stay with us today for an unparalleled experience.</p>
+            </div>
+            <div class="booking">
+                <div class="arrival">
+                    <span>ARRIVAL</span>
+                    <input type="date" class="selectedstyle">
+                </div>
+                <div class="depart">
+                        <span>DEPARTURE</span>
+                        <input type="date" class="selectedstyle">
+                </div>
+                <div class="person">
+                    <span>NO OF PERSONS</span>
+                    <select name="" id="person" class="selectedstyle">
+                    <option value="Person">Person</option>
+                    <option value="Person">1</option>
+                    <option value="Person">2</option>
+                    <option value="Person">3</option>
+                    <option value="Person">4</option>
+                    <option value="Person">5</option>
+                    <option value="Person">6</option>
+                    <option value="Person">7</option>
+                    <option value="Person">8</option>
+                    <option value="Person">9</option>
+                    <option value="Person">10</option></select>
+                </div>
+                <div class="check">
+                    <button class="selectedstyle">Check Availability</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="f1">
+        FOLLOW US <br>
+        <img src="./Images/facebook-app-symbol.png" alt="">
+        <img src="./Images/instagram.png" alt="">
+        <img src="./Images/twitter.png" alt="">
+        <img src="./Images/youtube.png" alt="">
+        <br><br>
+        <span class="tandc">Terms and Conditions</span>
+        <br><br>
+        <span class="reservation">Reservations must be guaranteed with a valid credit card. Cancellations within [specified time] of arrival may incur a fee. Check-in time is [time], and check-out time is [time]. Full payment is required at check-in. The hotel is not liable for lost or stolen items. Smoking is prohibited in all indoor areas; a cleaning fee will be charged for violations. Pets are [allowed/not allowed]; conditions apply. Guests must conduct themselves respectfully and are liable for any damages caused. The hotel reserves the right to modify these terms without prior notice.</span>
+
+        <br><br>
+        <span class="feel">Feel free to adjust the specifics to align with your hotel’s policies and requirements.</span>
+        </div>
+
+        <div class="f2">
+            <div>
+                <span class="sit">STAY IN TOUCH</span>
+                <span class="sitdesc">SUBSCRIBE TO RECEIVE UPDATES, ACCESS TO EXCLUSIVE DEALS AND MORE.</span>
+            </div>
+            <div class="mess">
+                <input type="email" placeholder="     Enter your email" class="email">
+                <button class="sub">SUBSCRIBE</button>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="copyright">
+        HOTEL NAME © [Current Year] [Hotel Name]. All Rights Reserved.
+    </div>
+    <script src="./JS/nav.js"></script>
+</body>
+</html>
