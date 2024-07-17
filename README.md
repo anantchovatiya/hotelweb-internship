@@ -4,9 +4,9 @@ Welcome to my GitHub repository for the MERN Stack Summer Internship 2024! This 
 
 ## 🚀 Introduction
 
-**25th May 2024**
+**12th May 2024**
 ### Bootcamp Live Session: Introduction to MERN Stack Development
-On 25th May, we kicked off with a live bootcamp led by Amit Arora, a seasoned MERN stack developer. This session covered the basics of each component of the MERN stack, laying the foundation for our internship projects. The internship spanned 4 weeks, focusing on labs and practical insights to make us proficient in MERN stack development.
+On 12th May, we kicked off with a live bootcamp led by Amit Arora, a seasoned MERN stack developer. This session covered the basics of each component of the MERN stack, laying the foundation for our internship projects. The internship spanned 4 weeks, focusing on labs and practical insights to make us proficient in MERN stack development.
 
 ## Start of Internship
 
